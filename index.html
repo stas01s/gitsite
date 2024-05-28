@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .product {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px;
+      width: calc(33% - 40px);
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .product h3 {
+      margin: 10px 0;
+    }
+
+    .product p {
+      color: #666;
+    }
+
+    .product button {
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    .product button:hover {
+      background: #555;
+    }
+
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Stanislaw's Shop</h1>
+    </div>
+  </header>
+  <div class="container">
+    <div class="products">
+      <div class="product">
+        <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F50%2F78%2F5078ef69b7e902ff1f2ef2533198f09d282dad8e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]" alt="Product 1">
+        <h3>Shorts</h3>
+        <p>$19.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYktqAhuY4LD-NjKLcNbpnOcm10_Oq9wmGadbal2a5-w&s" alt="Product 2">
+        <h3>Pants</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://www.gorillawear.com/resize/90607409-boise-oversized-long-sleeve-army-green-10_11882515100192.jpg/0/1100/True/boise-oversized-long-sleeve-legergroen.jpg" alt="Product 3">
+        <h3>Longsleeve<h3>
+        <p>$39.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQC7usCz5YOdmuIQb8onZRK-rkACqwPc_lVig&s" alt="Product 4">
+        <h3>Hoodie<h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://static.pullandbear.net/2/photos//2024/V/0/1/p/7593/349/818/7593349818_2_6_8.jpg?t=1694161218834&imwidth=1125" alt="Product 5">
+        <h3>Zip-hoodie</h3>
+        <p>$59.99</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://tailoredathlete.co.uk/cdn/shop/files/Photo-333_1200x.jpg?v=1695043432" alt="Product 6">
+        <h3>Jacket</h3>
+        <p>$69.99</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Stanislaw's Shop</p>
+    </div>
+  </footer>
+</body>
+
+</html>
